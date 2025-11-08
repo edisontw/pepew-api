@@ -31,6 +31,11 @@ spentindex=1
 
 zmqpubrawblock=tcp://127.0.0.1:28332
 zmqpubrawtx=tcp://127.0.0.1:28333
+
+# Logging control to prevent the large log file 
+shrinkdebugfile=1
+logtimestamps=1
+debug=0
 ```
 > **Important:** Use strong credentials. Do **not** reuse passwords. Store secrets outside version control.
 

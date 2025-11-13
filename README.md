@@ -37,8 +37,8 @@ shrinkdebugfile=1
 logtimestamps=1
 debug=0
 ```
-> **Important:** Use strong credentials. Do **not** reuse passwords. Store secrets outside version control.
-
+> Use strong credentials. Do **not** reuse passwords. Store secrets outside version control.
+> **Important:** The log file is getting very large, so it’s a good idea to write a script to monitor it.
 ## Ports
 | Component     | Port  | Purpose            |
 |---------------|-------|--------------------|
